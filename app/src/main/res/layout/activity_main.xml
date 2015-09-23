@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- 加速度(X軸) -->
+    <TextView
+        android:id="@+id/accelerometerX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accelerometer_x"
+        android:textSize="20sp" />
+
+    <!-- 加速度(Y軸) -->
+    <TextView
+        android:id="@+id/accelerometerY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accelerometer_y"
+        android:textSize="20sp" />
+
+    <!-- 加速度(Z軸) -->
+    <TextView
+        android:id="@+id/accelerometerZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accelerometer_z"
+        android:textSize="20sp" />
+
+    <!-- 方位 -->
+    <TextView
+        android:id="@+id/azimuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/azimuth"
+        android:textSize="20sp" />
+
+    <!-- ピッチ角 -->
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pitch"
+        android:textSize="20sp" />
+
+    <!-- ロール角 -->
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/roll"
+        android:textSize="20sp" />
+
+    <!-- 近接 -->
+    <TextView
+        android:id="@+id/proximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proximity"
+        android:textSize="20sp" />
+
+    <!-- 照度 -->
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/light"
+        android:textSize="20sp" />
+
+    <!-- 温度 -->
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"
+        android:textSize="20sp" />
+
+</LinearLayout>

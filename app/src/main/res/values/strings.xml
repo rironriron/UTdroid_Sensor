@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UTdroid_Sensor</string>
+
+    <string name="accelerometer_x">加速度（X軸）：</string>
+    <string name="accelerometer_y">加速度（Y軸）：</string>
+    <string name="accelerometer_z">加速度（Z軸）：</string>
+    <string name="azimuth">方位：</string>
+    <string name="pitch">ピッチ角：</string>
+    <string name="roll">ロール角：</string>
+    <string name="proximity">近接：</string>
+    <string name="light">照度：</string>
+    <string name="temperature">温度：</string>
+</resources>
