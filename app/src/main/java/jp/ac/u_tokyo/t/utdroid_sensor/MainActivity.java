@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     /**
      * アプリが終了して、画面が破棄される時に呼ばれるメソッド。
-     * 必ず呼ばれるとは限らないので注意が必要（必要に応じて、onResume, onStop, onDestroyを使い分ける）。
+     * 必ず呼ばれるとは限らないので注意が必要（必要に応じて、onPause, onStop, onDestroyを使い分ける）。
      */
     @Override
     public void onDestroy() {
